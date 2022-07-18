@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Oleo+Script&family=Poppins:wght@400;500&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header  */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+    margin-top: 50px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+.navber {
+    display: flex;
+
+}
+
+.navber li {
+    list-style: none;
+    margin: 15px;
+}
+
+.navber li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    padding: 7px;
+}
